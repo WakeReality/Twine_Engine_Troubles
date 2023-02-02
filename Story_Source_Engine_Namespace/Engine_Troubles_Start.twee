@@ -14,7 +14,7 @@ Engine Troubles
 :: StoryInit
 
 :: StorySubtitle
-Version: 0.0.1
+Version: 0.0.2
 
 :: Passage A
 
@@ -23,9 +23,13 @@ You are in Passage A.
 
 :: Passage B
 
-<<run GE.functionA()>>
 You are now in Passage B.
+<<run GE.functionA()>>
+More Passage B
+If you now refresh the web broser page, do you change to Passage C?
 
 :: Passage C
 
 Passage C.
+More Passage C.
+

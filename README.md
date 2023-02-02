@@ -14,4 +14,7 @@ PROBLEM: The Twine passage can not find the JavaScript function.
 
 # Engine Namespace
 
-This third example fails with a syntax error in the Twine HTML file.
+This third example does not produce any errors, but the output in Twine story does ot reflect the change of passage to "Passage C".\\
+
+The onscreen message explains that a web browser refresh is required.
+
