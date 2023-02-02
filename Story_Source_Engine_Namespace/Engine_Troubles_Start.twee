@@ -1,0 +1,31 @@
+:: StoryTitle
+Engine Troubles
+
+:: StoryData
+{
+	"ifid": "AA620E43-9CBB-4CCD-A8E4-608D8BEDCA31",
+	"format": "SugarCube",
+	"format-version": "2.36.1",
+	"start": "Passage A",
+	"zoom": 1
+}
+
+
+:: StoryInit
+
+:: StorySubtitle
+Version: 0.0.1
+
+:: Passage A
+
+You are in Passage A.
+[[Passage B]]
+
+:: Passage B
+
+<<run GE.functionA()>>
+You are now in Passage B.
+
+:: Passage C
+
+Passage C.
